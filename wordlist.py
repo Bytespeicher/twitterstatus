@@ -7,7 +7,8 @@ The word list is a list with seperate lists for
   * is
   * open
   * closed
-  * fill words
+  * fill words - good
+  * fill words - bad
 """
 WORDLIST = [
     [
@@ -41,5 +42,16 @@ WORDLIST = [
         'beautiful', 
         'delightful', 
         'lovely',
+    ],
+    [
+        'Too bad',
+        'ignoble',
+        'inglorious',
+        'dishonorable',
+        'atrocious',
+        'flagitious',
+        'lowly',
+        'mean',
+        'poor',
     ]
 ]
