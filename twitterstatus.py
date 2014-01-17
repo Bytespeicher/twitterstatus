@@ -19,6 +19,7 @@ except ImportError:
         ['is'],
         ['open'],
         ['closed'],
+        [''],
         ['']
     ]
 
@@ -43,7 +44,10 @@ def generate_phrase(open_status=True):
         phrase += choice(WORDLIST[3]) + ". "
 
     if choice([True, False]):
-        phrase += choice(WORDLIST[4]).title() + "!"
+        if open_status:
+            phrase += choice(WORDLIST[4]).title() + "!"
+        else:
+            phrase += choice(WORDLIST[5]).title() + "!"
 
     return phrase
 
