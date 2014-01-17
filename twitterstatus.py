@@ -8,7 +8,7 @@ from random  import choice
 
 try:
     from config  import *
-except Exception as e:
+except ImportError as e:
     print("ERROR: Could not import config. Make sure config.py exists.")
 
 try:
