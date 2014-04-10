@@ -56,7 +56,7 @@ def update(status):
         status_file = open(STATUS_FILE, 'r')
     except IOError as e:
         print('WARN: problem with status file, writing new one')
-        write_status(status.read())
+        write_status(status)
         return
 
     try:
@@ -80,7 +80,7 @@ def update(status):
         return
 
 try:
-    twitter.direct_messages.new(user='mkzer0', text='Twitter Bot Startup')
+    twitter.direct_messages.new(user=ADMIN_NAME', text='Twitter Bot Startup')
 except Exception as e:
     print('Error sending direct message: ' + e)
 
@@ -93,7 +93,7 @@ while 1:
         exit(255)
     except Exception as e:
         try:
-            twitter.direct_messages.new(user='mkzer0', text='Twitter Bot Error')
+            twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Error')
         except Exception:
             pass
         print('Error loading current status: ' + e)
