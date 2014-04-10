@@ -56,7 +56,7 @@ def update(status):
         status_file = open(STATUS_FILE, 'r')
     except IOError as e:
         print('WARN: problem with status file, writing new one')
-        write_status(status.read())
+        write_status(status)
         return
 
     try:
