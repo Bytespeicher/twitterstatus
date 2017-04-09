@@ -80,7 +80,7 @@ def update(status):
         return
 
 try:
-    twitter.direct_messages.new(user=ADMIN_NAME', text='Twitter Bot Startup')
+    twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Startup')
 except Exception as e:
     print('Error sending direct message: ' + e)
 
