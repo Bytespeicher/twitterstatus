@@ -60,7 +60,7 @@ translations = {
         ],
         [
             'offen',
-            'Zutritt möglich',
+            'Zutritt gewährend',
         ],
         [
             'geschlossen',
