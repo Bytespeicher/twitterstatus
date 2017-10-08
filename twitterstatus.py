@@ -12,7 +12,10 @@ except ImportError as e:
     print("ERROR: Could not import config. Make sure config.py exists.")
 
 try:
-    from wordlist import *
+    from wordlist import wordlist
+
+    if LANGUAGE:
+        WORDLIST = wordlist(LANGUAGE)
 except ImportError:
     WORDLIST = [
         ['The space'],
