@@ -49,6 +49,51 @@ translations = {
             'mean',
             'poor',
         ]
+    ],
+	"de_DE": [
+        [
+            'Der Raum',
+            'Bytespeicher'
+        ],
+        [
+            'ist',
+        ],
+        [
+            'offen',
+            'Zutritt gewährend',
+        ],
+        [
+            'geschlossen',
+            'nicht mehr geöffnet'
+        ],
+        [
+            'Großartig',
+            'Imposant',
+            'Beeindruckend',
+            'Ehrfurcht einflößend',
+            'Grandios',
+            'Herrlich',
+            'Majestätisch',
+            'Monumental',
+            'Glorreich',
+            'Prächtig',
+            'Prachtvoll',
+            'Nobel',
+            'Wunderschön',
+            'Reizend',
+            'Lieblich',
+        ],
+        [
+            'Schade',
+            'Unwürdig',
+            'Schmählich',
+            'Unehrenhaft',
+            'Scheußlich',
+            'Sündhaft',
+            'Bescheiden',
+            'Gemein',
+            'Schwach',
+        ]
     ]
 }
 
