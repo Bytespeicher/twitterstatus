@@ -1,10 +1,10 @@
 #!bin/python
 
-OAUTH_TOKEN     = ''
-OAUTH_SECRET    = ''
-CONSUMER_KEY    = ''
+OAUTH_TOKEN = ''
+OAUTH_SECRET = ''
+CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
-ADMIN_NAME      = ''
-STATUS_FILE     = '/tmp/twitter_old_status'
-CURRENT_STATUS  = '/var/www/status.json'
-
+ADMIN_NAME = ''
+STATUS_FILE = '/tmp/twitter_old_status'
+CURRENT_STATUS = '/var/www/status.json'
+LANGUAGE = 'en_US'
