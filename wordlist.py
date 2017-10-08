@@ -8,7 +8,6 @@ translations = {
     "en_US": [
         [
             'The space',
-            'Bytespeicher'
         ],
         [
             'is',
@@ -22,11 +21,11 @@ translations = {
             'not open anymore'
         ],
         [
-            'magnificent',
-            'imposing',
-            'impressive',
-            'awe-inspiring',
-            'grand',
+            'Awesome',
+            'Great',
+            'Impressive',
+            'Cool',
+            'Niiiiice',
             'splendid',
             'majestic',
             'monumental',
@@ -36,20 +35,63 @@ translations = {
             'lavish',
             'beautiful',
             'delightful',
-            'lovely',
+            'Lovely',
+        ],
+        [
+            'Well, damn',
+            'Yikes',
+            'Inglorious',
+            'Sucks',
+            'Atrocious',
+            'Flagitious',
+            'Sad',
+            'Shucks',
+        ]
+    ],
+    "en_GB": [
+        [
+            'The space',
+        ],
+        [
+            'is',
+        ],
+        [
+            'open',
+            'allowing access',
+        ],
+        [
+            'closed',
+            'currently unavailable',
+        ],
+        [
+            'Magnificent',
+            'Brilliant',
+            'Impressive',
+            'Awe-inspiring',
+            'Grand',
+            'Splendid',
+            'Fantastic',
+            'Monumental',
+            'Glorious',
+            'Gorgeous',
+            'Superb',
+            'Lavish',
+            'Beautiful',
+            'Delightful',
+            'Lovely',
         ],
         [
             'Too bad',
-            'ignoble',
-            'inglorious',
-            'dishonorable',
-            'atrocious',
-            'flagitious',
-            'lowly',
-            'mean',
-            'poor',
+            'Poor',
+            'Inglorious',
+            'Dishonorable',
+            'Atrocious',
+            'Flagitious',
+            'Aw shite',
+            'How unfortunate',
+            'We do apologise',
         ]
-    ]
+    ],
 }
 
 
