@@ -1,5 +1,5 @@
 #!bin/python
-
+# -*- coding: UTF-8 -*-
 
 class MissingTranslationException(Exception):
     pass
@@ -138,6 +138,51 @@ translations = {
             'pokorny',
             'złośliwy',
             'biedny',
+        ],
+    ],
+    "pt_BR": [
+        [
+            'O espaço',
+            'Bytespeicher'
+        ],
+        [
+            'é',
+        ],
+        [
+            'aberto',
+            'permitindo acesso',
+        ],
+        [
+            'fechado',
+            'não está mais aberto'
+        ],
+        [
+            'magnífico',
+            'imponente',
+            'impressionante',
+            'inspirador',
+            'grande',
+            'esplendido',
+            'majestoso',
+            'monumental',
+            'glorioso',
+            'suntuoso',
+            'resplandecente',
+            'generoso',
+            'belo',
+            'delicioso',
+            'amável',
+        ],
+        [
+            'Que pena',
+            'Desprezível',
+            'inglório',
+            'desonroso',
+            'atroz',
+            'flagrante',
+            'humilde',
+            'malvado',
+            'miserável',
         ]
     ],
 }
