@@ -1,5 +1,5 @@
-#!bin/python
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 class MissingTranslationException(Exception):
     pass

@@ -1,4 +1,5 @@
-#!bin/python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import json
 from twitter import Twitter, OAuth, TwitterHTTPError
@@ -85,7 +86,7 @@ def update(status):
 try:
     twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Startup')
 except Exception as e:
-    print('Error sending direct message: ' + e)
+    print('Error sending direct message: ' + str(e))
 
 while 1:
     try:
