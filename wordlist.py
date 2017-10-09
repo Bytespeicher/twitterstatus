@@ -271,6 +271,45 @@ translations = {
             'miserável',
         ]
     ],
+    "es_ES": [
+        [
+            'El espacio',
+            config.SPACE_NAME
+        ],
+        [
+            'está',
+        ],
+        [
+            'abierto',
+            'permitiendo el acceso',
+        ],
+        [
+            'cerrado',
+            'innacesible'
+        ],
+        [
+            'Genial',
+            'Perfecto',
+            'Impresionante',
+            'Magnífico',
+            'Nos complace que',
+            'Maravilloso',
+            'Fantástico',
+            'Estupendo',
+            'Soberbio',
+            'Extraordinario',
+            'Fascinante',
+            'Prodigioso'
+        ],
+        [
+            'Mierda',
+            'Lamentablemente',
+            'Tristemente',
+            'Lo sentimos',
+            'A nuestro pesar',
+            'Desoladamente'
+        ]
+    ]
 }
 
 
