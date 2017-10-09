@@ -274,7 +274,7 @@ translations = {
     "tr_TR": [
         [
             'Boşluk',
-            'Bytespeicher'
+            config.SPACE_NAME
         ],
         [
             'dır',
