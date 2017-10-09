@@ -8,3 +8,4 @@ ADMIN_NAME = ''
 STATUS_FILE = '/tmp/twitter_old_status'
 CURRENT_STATUS = '/var/www/status.json'
 LANGUAGE = 'en_US'
+SPACE_NAME = ['Bytespeicher', 'Space']

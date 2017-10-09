@@ -2,12 +2,12 @@
 
 import json
 from twitter import Twitter, OAuth, TwitterHTTPError
-from time    import sleep
-from sys     import exit
-from random  import choice
+from time import sleep
+from sys import exit
+from random import choice
 
 try:
-    from config  import *
+    import config
 except ImportError as e:
     print("ERROR: Could not import config. Make sure config.py exists.")
 
@@ -28,17 +28,19 @@ except ImportError:
 
 try:
     twitter = Twitter(auth=OAuth(OAUTH_TOKEN, OAUTH_SECRET,
-                  CONSUMER_KEY, CONSUMER_SECRET))
+                      CONSUMER_KEY, CONSUMER_SECRET))
 except Exception as e:
     print('Error in twitter init: ' + e)
     exit(255)
+
 
 def write_status(status):
     status_file = open(STATUS_FILE, 'w+')
     status_file.write(json.dumps({'status': status}))
 
+
 def generate_phrase(open_status=True):
-    phrase  = choice(WORDLIST[0]) + " "
+    phrase = choice(WORDLIST[0]) + " "
     phrase += choice(WORDLIST[1]) + " "
 
     if open_status:
@@ -53,6 +55,7 @@ def generate_phrase(open_status=True):
             phrase += choice(WORDLIST[5]).title() + "!"
 
     return phrase
+
 
 def update(status):
     try:
@@ -69,9 +72,9 @@ def update(status):
         write_status(status)
         return
 
-    if status == True and last_status['status'] == False:
+    if status and not last_status['status']:
         text = generate_phrase(True)
-    elif status == False and last_status['status'] == True:
+    elif not status and last_status['status']:
         text = generate_phrase(False)
     else:
         return
@@ -81,6 +84,7 @@ def update(status):
     except TwitterHTTPError as e:
         print('Error while updating status: ' + e)
         return
+
 
 try:
     twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Startup')
@@ -96,7 +100,9 @@ while 1:
         exit(255)
     except Exception as e:
         try:
-            twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Error')
+            twitter.direct_messages.new(
+                user=ADMIN_NAME, text='Twitter Bot Error'
+            )
         except Exception:
             pass
         print('Error loading current status: ' + e)
