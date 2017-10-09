@@ -231,7 +231,7 @@ translations = {
             config.SPACE_NAME
         ],
         [
-            'é',
+            'está',
         ],
         [
             'aberto',
@@ -239,15 +239,15 @@ translations = {
         ],
         [
             'fechado',
-            'não está mais aberto'
+            'não mais aberto'
         ],
         [
-            'magnífico',
-            'imponente',
-            'impressionante',
-            'inspirador',
-            'grande',
-            'esplendido',
+            'Magnífico',
+            'Imponente',
+            'Impressionante',
+            'Inspirador',
+            'Ótimo',
+            'Esplêndido',
             'majestoso',
             'monumental',
             'glorioso',
@@ -256,18 +256,17 @@ translations = {
             'generoso',
             'belo',
             'delicioso',
-            'amável',
+            'Amável',
         ],
         [
             'Que pena',
             'Desprezível',
-            'inglório',
-            'desonroso',
-            'atroz',
-            'flagrante',
-            'humilde',
-            'malvado',
-            'miserável',
+            'Inglório',
+            'Desonroso',
+            'Atroz',
+            'Cruel',
+            'Triste',
+            'Nojento',
         ]
     ],
     "tr_TR": [
