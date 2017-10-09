@@ -9,7 +9,10 @@ class MissingTranslationException(Exception):
 
 translations = {
     "en_US": [
-        config.SPACE_NAME,
+        [
+            'The space',
+            config.SPACE_NAME
+        ],
         [
             'is',
         ],
@@ -48,7 +51,10 @@ translations = {
         ]
     ],
     "en_GB": [
-        config.SPACE_NAME,
+        [
+            'The space',
+            config.SPACE_NAME
+        ],
         [
             'is',
         ],
@@ -91,7 +97,10 @@ translations = {
         ]
     ],
     "fr_FR": [
-        config.SPACE_NAME,
+        [
+            "L'espace",
+            config.SPACE_NAME
+        ],
         [
             'est',
         ],
@@ -128,7 +137,10 @@ translations = {
         ]
     ],
     "de_DE": [
-        config.SPACE_NAME,
+        [
+            'Der Raum',
+            config.SPACE_NAME
+        ],
         [
             'ist',
         ],
@@ -170,7 +182,10 @@ translations = {
         ]
     ],
     "pl_PL": [
-        config.SPACE_NAME,
+        [
+            'Spacja',
+            config.SPACE_NAME
+        ],
         [
             'jest',
         ],
@@ -212,7 +227,10 @@ translations = {
         ],
     ],
     "pt_BR": [
-        config.SPACE_NAME,
+        [
+            'O espaço',
+            config.SPACE_NAME
+        ],
         [
             'é',
         ],

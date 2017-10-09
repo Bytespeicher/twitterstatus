@@ -14,8 +14,8 @@ except ImportError as e:
 try:
     from wordlist import wordlist
 
-    if LANGUAGE:
-        WORDLIST = wordlist(LANGUAGE)
+    if config.LANGUAGE:
+        WORDLIST = wordlist(config.LANGUAGE)
 except ImportError:
     WORDLIST = [
         ['The space'],
@@ -27,15 +27,18 @@ except ImportError:
     ]
 
 try:
-    twitter = Twitter(auth=OAuth(OAUTH_TOKEN, OAUTH_SECRET,
-                      CONSUMER_KEY, CONSUMER_SECRET))
+    twitter = Twitter(auth=OAuth(
+                            config.OAUTH_TOKEN,
+                            config.OAUTH_SECRET,
+                            config.CONSUMER_KEY,
+                            config.CONSUMER_SECRET))
 except Exception as e:
     print('Error in twitter init: ' + e)
     exit(255)
 
 
 def write_status(status):
-    status_file = open(STATUS_FILE, 'w+')
+    status_file = open(config.STATUS_FILE, 'w+')
     status_file.write(json.dumps({'status': status}))
 
 
@@ -59,7 +62,7 @@ def generate_phrase(open_status=True):
 
 def update(status):
     try:
-        status_file = open(STATUS_FILE, 'r')
+        status_file = open(config.STATUS_FILE, 'r')
     except IOError as e:
         print('WARN: problem with status file, writing new one')
         write_status(status)
@@ -87,21 +90,25 @@ def update(status):
 
 
 try:
-    twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Startup')
+    twitter.direct_messages.new(
+        user=config.ADMIN_NAME,
+        text='Twitter Bot Startup'
+    )
 except Exception as e:
     print('Error sending direct message: ' + e)
 
 while 1:
     try:
-        status = json.loads(open(CURRENT_STATUS, 'r').read())
+        status = json.loads(open(config.CURRENT_STATUS, 'r').read())
         print('status: ' + str(status['state']['open']))
     except FileNotFoundError as e:
-        print("Could not find or open status file '" + CURRENT_STATUS + "'")
+        print("Could not find or open status file '" +
+              config.CURRENT_STATUS + "'")
         exit(255)
     except Exception as e:
         try:
             twitter.direct_messages.new(
-                user=ADMIN_NAME, text='Twitter Bot Error'
+                user=config.ADMIN_NAME, text='Twitter Bot Error'
             )
         except Exception:
             pass
