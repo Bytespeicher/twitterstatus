@@ -354,6 +354,46 @@ translations = {
             'Desoladamente'
         ]
     ],
+    "nb_NO": [
+        [
+            'Rommet',
+            config.SPACE_NAME
+        ],
+        [
+            'er',
+        ],
+        [
+            'åpent',
+            'tilgjengelig',
+        ],
+        [
+            'stengt',
+            'utilgjengelig',
+            'ikke lenger tilgjengelig',
+        ],
+        [
+            'Fantastisk',
+            'Bra',
+            'Kjempebra',
+            'Herlig',
+            'Imponerende',
+            'Kult',
+            'Nydelig',
+            'Prima',
+            'Tøft',
+            'Strålende',
+            'Praktfullt',
+            'Helmaks',
+        ],
+        [
+            'Søren',
+            'Filler\'n',
+            'Kjedelig',
+            'Teit',
+            'Trist',
+            'Dumt',
+        ]
+    ],
     "nl_NL": [
         [
             'De Ruimte',
