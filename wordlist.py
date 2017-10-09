@@ -95,6 +95,51 @@ translations = {
             'Schwach',
         ]
     ],
+    "pl_PL": [
+        [
+            'Spacja',
+            'Bytespeicher'
+        ],
+        [
+            'jest',
+        ],
+        [
+            'otwarte',
+            'dostępne',
+        ],
+        [
+            'zamknięte',
+            'juz zamknięte'
+        ],
+        [
+            'wspaniałe',
+            'imponujące',
+            'impresujące',
+            'inspirujące',
+            'ogromne',
+            'wspaniałe',
+            'majestatyczne',
+            'monumentalne',
+            'wspaniałe',
+            'wystawne',
+            'olsśiewajace',
+            'rozrzutne',
+            'piękne',
+            'zachwycające',
+            'kochane',
+        ],
+        [
+            'Słabe',
+            'niegodziwe',
+            'niechlubne',
+            'niegodziwe',
+            'okrutne',
+            'flagowe',
+            'pokorny',
+            'złośliwy',
+            'biedny',
+        ],
+    ],
     "pt_BR": [
         [
             'O espaço',
