@@ -354,6 +354,48 @@ translations = {
             'Desoladamente'
         ]
     ],
+    "nl_NL": [
+        [
+            'De Ruimte',
+            config.SPACE_NAME
+        ],
+        [
+            'is',
+        ],
+        [
+            'open',
+            'toegang toegestaan',
+        ],
+        [
+            'dicht',
+            'niet meer geopend'
+        ],
+        [
+            'Geweldig',
+            'Goed',
+            'Indrukwekkend',
+            'Cool',
+            'Leuk',
+            'Majestueus',
+            'Monumentaal',
+            'Glorieus',
+            'Prachtig',
+            'Glansrijk',
+            'Geniaal',
+            'Fantastisch',
+            'Heerlijk',
+        ],
+        [
+            'Helaas',
+            'Bah',
+            'Roemloos',
+            'Zonde',
+            'Afgrijselijk',
+            'Schandelijk',
+            'Zielig',
+            'Verdorie',
+        ]
+    ],
 }
 
 
