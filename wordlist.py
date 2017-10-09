@@ -1,7 +1,6 @@
-#!bin/python
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import config
-
 
 class MissingTranslationException(Exception):
     pass
