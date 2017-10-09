@@ -2,20 +2,20 @@
 
 import json
 from twitter import Twitter, OAuth, TwitterHTTPError
-from time    import sleep
-from sys     import exit
-from random  import choice
+from time import sleep
+from sys import exit
+from random import choice
 
 try:
-    from config  import *
+    import config
 except ImportError as e:
     print("ERROR: Could not import config. Make sure config.py exists.")
 
 try:
     from wordlist import wordlist
 
-    if LANGUAGE:
-        WORDLIST = wordlist(LANGUAGE)
+    if config.LANGUAGE:
+        WORDLIST = wordlist(config.LANGUAGE)
 except ImportError:
     WORDLIST = [
         ['The space'],
@@ -27,18 +27,23 @@ except ImportError:
     ]
 
 try:
-    twitter = Twitter(auth=OAuth(OAUTH_TOKEN, OAUTH_SECRET,
-                  CONSUMER_KEY, CONSUMER_SECRET))
+    twitter = Twitter(auth=OAuth(
+                            config.OAUTH_TOKEN,
+                            config.OAUTH_SECRET,
+                            config.CONSUMER_KEY,
+                            config.CONSUMER_SECRET))
 except Exception as e:
     print('Error in twitter init: ' + e)
     exit(255)
 
+
 def write_status(status):
-    status_file = open(STATUS_FILE, 'w+')
+    status_file = open(config.STATUS_FILE, 'w+')
     status_file.write(json.dumps({'status': status}))
 
+
 def generate_phrase(open_status=True):
-    phrase  = choice(WORDLIST[0]) + " "
+    phrase = choice(WORDLIST[0]) + " "
     phrase += choice(WORDLIST[1]) + " "
 
     if open_status:
@@ -54,9 +59,10 @@ def generate_phrase(open_status=True):
 
     return phrase
 
+
 def update(status):
     try:
-        status_file = open(STATUS_FILE, 'r')
+        status_file = open(config.STATUS_FILE, 'r')
     except IOError as e:
         print('WARN: problem with status file, writing new one')
         write_status(status)
@@ -69,9 +75,9 @@ def update(status):
         write_status(status)
         return
 
-    if status == True and last_status['status'] == False:
+    if status and not last_status['status']:
         text = generate_phrase(True)
-    elif status == False and last_status['status'] == True:
+    elif not status and last_status['status']:
         text = generate_phrase(False)
     else:
         return
@@ -82,21 +88,28 @@ def update(status):
         print('Error while updating status: ' + e)
         return
 
+
 try:
-    twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Startup')
+    twitter.direct_messages.new(
+        user=config.ADMIN_NAME,
+        text='Twitter Bot Startup'
+    )
 except Exception as e:
     print('Error sending direct message: ' + e)
 
 while 1:
     try:
-        status = json.loads(open(CURRENT_STATUS, 'r').read())
+        status = json.loads(open(config.CURRENT_STATUS, 'r').read())
         print('status: ' + str(status['state']['open']))
     except FileNotFoundError as e:
-        print("Could not find or open status file '" + CURRENT_STATUS + "'")
+        print("Could not find or open status file '" +
+              config.CURRENT_STATUS + "'")
         exit(255)
     except Exception as e:
         try:
-            twitter.direct_messages.new(user=ADMIN_NAME, text='Twitter Bot Error')
+            twitter.direct_messages.new(
+                user=config.ADMIN_NAME, text='Twitter Bot Error'
+            )
         except Exception:
             pass
         print('Error loading current status: ' + e)

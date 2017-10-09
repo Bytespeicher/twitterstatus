@@ -1,13 +1,17 @@
 #!bin/python
 # -*- coding: UTF-8 -*-
+import config
+
 
 class MissingTranslationException(Exception):
     pass
+
 
 translations = {
     "en_US": [
         [
             'The space',
+            config.SPACE_NAME
         ],
         [
             'is',
@@ -49,6 +53,7 @@ translations = {
     "en_GB": [
         [
             'The space',
+            config.SPACE_NAME
         ],
         [
             'is',
@@ -94,6 +99,7 @@ translations = {
     "fr_FR": [
         [
             "L'espace",
+            config.SPACE_NAME
         ],
         [
             'est',
@@ -129,11 +135,11 @@ translations = {
             'Ça suce',
             'Terrible',
         ]
-  ],
-	"de_DE": [
+    ],
+    "de_DE": [
         [
             'Der Raum',
-            'Bytespeicher'
+            config.SPACE_NAME
         ],
         [
             'ist',
@@ -178,7 +184,7 @@ translations = {
     "pl_PL": [
         [
             'Spacja',
-            'Bytespeicher'
+            config.SPACE_NAME
         ],
         [
             'jest',
@@ -223,7 +229,7 @@ translations = {
     "pt_BR": [
         [
             'O espaço',
-            'Bytespeicher'
+            config.SPACE_NAME
         ],
         [
             'é',
@@ -328,6 +334,6 @@ def wordlist(language="en_US"):
     try:
         wordlist = translations[language]
         return wordlist
-    except:
+    except Exception:
         raise MissingTranslationException("No translation for %s found" %
                                           language)
