@@ -271,6 +271,51 @@ translations = {
             'miserável',
         ]
     ],
+    "tr_TR": [
+        [
+            'Boşluk',
+            'Bytespeicher'
+        ],
+        [
+            'dır',
+        ],
+        [
+            'açık',
+            'girişe izin veriyor',
+        ],
+        [
+            'kapalı',
+            'artık açık değil'
+        ],
+        [
+            'muhteşem',
+            'heybetli',
+            'etkileyici',
+            'korku-veren',
+            'büyük',
+            'görkemli',
+            'haşmetli',
+            'anıtsal',
+            'şanlı',
+            'ihtişamlı',
+            'şaşaalı',
+            'savurgan',
+            'güzel',
+            'keyifli',
+            'sevimli',
+        ],
+        [
+            'Çok kötü',
+            'onursuz',
+            'şerefsiz',
+            'namussuz',
+            'iğrenç',
+            'rezil',
+            'aşağı',
+            'cimri',
+            'fakir',
+        ],
+    ],
     "es_ES": [
         [
             'El espacio',
