@@ -265,6 +265,51 @@ translations = {
             'miserável',
         ]
     ],
+    "tr_TR": [
+        [
+            'Bosluk',
+            'Bytespeicher'
+        ],
+        [
+            'dir',
+        ],
+        [
+            'acik',
+            'girise izin verir',
+        ],
+        [
+            'kapali',
+            'artik acik degil'
+        ],
+        [
+            'muhtesem',
+            'heybetli',
+            'etkileyici',
+            'korku-veren',
+            'buyuk',
+            'gorkemli',
+            'hasmetli',
+            'anitsal',
+            'sanli',
+            'ihtisamli',
+            'sasaali',
+            'savurgan',
+            'guzel',
+            'keyifli',
+            'sevimli',
+        ],
+        [
+            'Cok kotu',
+            'onursuz',
+            'serefsiz',
+            'namussuz',
+            'igrenc',
+            'rezil',
+            'asagi',
+            'cimri',
+            'fakir',
+        ]
+    ]
 }
 
 
