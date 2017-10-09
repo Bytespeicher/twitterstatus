@@ -50,6 +50,45 @@ translations = {
             'poor',
         ]
     ],
+    "fr_FR": [
+        [
+            "L'espace",
+        ],
+        [
+            'est',
+        ],
+        [
+            'ouvert',
+            "accorde l'accès",
+        ],
+        [
+            'fermé',
+            'inaccesible'
+        ],
+        [
+            'Magnifique',
+            'Fantastique',
+            'Excellent',
+            'Effrayant',
+            'Brillant',
+            'Majestueux',
+            'Glorieux',
+            'Somptueux',
+            'Resplendissant',
+            'Plantureux',
+            'Beau',
+            'Délicieux',
+            'Superbe',
+        ],
+        [
+            "C'est dommage",
+            'Merde',
+            'Honteux',
+            'Atroce',
+            'Ça suce',
+            'Terrible',
+        ]
+  ],
 	"de_DE": [
         [
             'Der Raum',
