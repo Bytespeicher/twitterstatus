@@ -180,6 +180,47 @@ translations = {
             'Schwach',
         ]
     ],
+	"it_IT": [
+       [
+           'Lo spazio',
+       ],
+       [
+           'è',
+       ],
+       [
+           'aperto',
+           'disponibile',
+       ],
+       [
+           'chiuso',
+           'bloccato',
+       ],
+       [
+           'Fantastico',
+           'Grandioso',
+           'Graaande',
+           'maestoso',
+           'monumentale',
+           'glorioso',
+           'splendente',
+           'bellissimo',
+           'Adorabile',
+           'Stupendo',
+           'Superbo',
+       ],
+       [
+           'Orripilante',
+           'Bleah',
+           'Orribile',
+           'Disgustoso',
+           'Senza gloria',
+           'Terribile',
+           'Atroce',
+           'Flagitious',
+           'Triste',
+           'Orrendo',
+       ]
+	],
     "pl_PL": [
         [
             'Spacja',
