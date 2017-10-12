@@ -515,6 +515,46 @@ translations = {
             'Αηδία',
         ]
     ],
+    "da_DK": [
+        [
+            'Rummet',
+            config.SPACE_NAME
+        ],
+        [
+            'er',
+        ],
+        [
+            'åbent',
+            'tillader adgang',
+        ],
+        [
+            'lukket',
+            'ikke åbent længere'
+            'ikke åbent lige nu'
+        ],
+        [
+            'Fedt',
+            'Fantastisk',
+            'Kodylt',
+            'Sejt',
+            'Vidunderligt',
+            'Skønt',
+            'Smukt',
+            'Dejligt',
+            'Lige til at spise',
+            'Perfekt',
+            'Hurra',
+        ],
+        [
+            'Åh nej',
+            'Katastrofe',
+            'Træls',
+            'Dårligt',
+            'Irriterende',
+            'Nedern',
+            'Forfærdeligt',
+        ]
+    ],
 }
 
 
