@@ -82,9 +82,6 @@ For the general code base, a clear style(with consideration for
 * imports must be at the top of the file
 * separate imports must be on separate lines
 * imports from the same module may be on a single line
-* imports must be grouped by:
-  * standard Python library
-  * third-party libraries
 * imports must not use explicit relative import declarations
 * imports must not use an asterisk import declaration (i.e. `from mod import *`)
 
