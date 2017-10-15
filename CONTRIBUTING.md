@@ -27,7 +27,9 @@
 
 ## Add Translations
 
-In wordlist.py a list is available with words. The words folder contains a folder for each language. Use IETF language tags for these folders. You can find a list with region/language examples [here](http://www.i18nguy.com/unicode/language-identifiers.html).
+In wordlist.py a list is available with words. Translations of those words are available in the words folder. You can add a translation by adding a folder for a new language. Use IETF language tags for these folders. You can find a list with region/language examples [here](http://www.i18nguy.com/unicode/language-identifiers.html).
+
+Within the folder, create a wordlist.json. The worlist.json file contains a list of lists. For each word in wordlist.py a list of possible translations is added.
 
 You don't have to translate all phrases and you don't have to translate everything word by word - every phrase is a possible composite of one list item of every one of the lists.
 
