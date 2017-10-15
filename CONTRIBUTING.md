@@ -25,6 +25,12 @@
 
 	`python3 twitterstatus.py`
 
+## Add Translations
+
+In wordlist.py a list is available with words. The words folder contains a folder for each language. Use IETF language tags for these folders. You can find a list with region/language examples [here](http://www.i18nguy.com/unicode/language-identifiers.html).
+
+You don't have to translate all phrases and you don't have to translate everything word by word - every phrase is a possible composite of one list item of every one of the lists.
+
 
 ## Coding Style
 
