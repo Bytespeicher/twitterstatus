@@ -84,8 +84,6 @@ For the general code base, a clear style(with consideration for
 * imports from the same module may be on a single line
 * imports must be grouped by:
   * standard Python library
-  * third-party libraries
-  * Bytebot libraries
 * imports must not use explicit relative import declarations
 * imports must not use an asterisk import declaration (i.e. `from mod import *`)
 
@@ -104,7 +102,6 @@ For the general code base, a clear style(with consideration for
 * classes are capitalized words with no underscores
 * the letters of abbreviations in class names are all capitialized
 * Exception names are treated as class names
-* plugin classes are all lowercase with no underscores
 * module names are all lowercase and may contain underscores
 * functions and class methods are all lowercase with underscores
 * class methods inherited by the Twisted API are mixed case(commonly refered 
