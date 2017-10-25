@@ -1,41 +1,45 @@
 [
   [
     "Lo spazio"
-  ], 
+  ],
   [
     "è"
-  ], 
+  ],
   [
-    "aperto", 
+    "aperto",
     "disponibile"
-  ], 
+  ],
   [
-    "chiuso", 
+    "chiuso",
     "bloccato"
-  ], 
+  ],
   [
-    "Fantastico", 
-    "Grandioso", 
-    "Graaande", 
-    "maestoso", 
-    "monumentale", 
-    "glorioso", 
-    "splendente", 
-    "bellissimo", 
-    "Adorabile", 
-    "Stupendo", 
-    "Superbo"
-  ], 
+    "Fantastico",
+    "Grandioso",
+    "Graaande",
+    "maestoso",
+    "monumentale",
+    "glorioso",
+    "splendente",
+    "bellissimo",
+    "Adorabile",
+    "Stupendo",
+    "Superbo",
+    "Lavish",
+    "Beautiful",
+    "Delightful",
+    "Lovely",
+    "Splendid"
+  ],
   [
-    "Orripilante", 
-    "Bleah", 
-    "Orribile", 
-    "Disgustoso", 
-    "Senza gloria", 
-    "Terribile", 
-    "Atroce", 
-    "Flagitious", 
-    "Triste", 
-    "Orrendo"
+    "Orripilante",
+    "Bleah",
+    "Orribile",
+    "Disgustoso",
+    "Senza gloria",
+    "Terribile",
+    "Atroce",
+    "Flagitious",
+    "Triste"
   ]
 ]
