@@ -1,38 +1,45 @@
 [
   [
     "El espacio"
-  ], 
+  ],
   [
     "está"
-  ], 
+  ],
   [
-    "abierto", 
+    "abierto",
     "permitiendo el acceso"
-  ], 
+  ],
   [
-    "cerrado", 
+    "cerrado",
     "innacesible"
-  ], 
+  ],
   [
-    "Genial", 
-    "Perfecto", 
-    "Impresionante", 
-    "Magnífico", 
-    "Nos complace que", 
-    "Maravilloso", 
-    "Fantástico", 
-    "Estupendo", 
-    "Soberbio", 
-    "Extraordinario", 
-    "Fascinante", 
-    "Prodigioso"
-  ], 
+    "Genial",
+    "Perfecto",
+    "Impresionante",
+    "Magnífico",
+    "Nos complace que",
+    "Maravilloso",
+    "Fantástico",
+    "Estupendo",
+    "Soberbio",
+    "Extraordinario",
+    "Fascinante",
+    "Prodigioso",
+    "Beautiful",
+    "Delightful",
+    "Lovely",
+    "Splendid"
+  ],
   [
-    "Mierda", 
-    "Lamentablemente", 
-    "Tristemente", 
-    "Lo sentimos", 
-    "A nuestro pesar", 
-    "Desoladamente"
+    "Mierda",
+    "Lamentablemente",
+    "Tristemente",
+    "Lo sentimos",
+    "A nuestro pesar",
+    "Desoladamente",
+    "Aw shite",
+    "How unfortunate",
+    "We do apologise"
   ]
 ]
