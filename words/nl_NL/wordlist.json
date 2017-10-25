@@ -1,41 +1,45 @@
 [
   [
     "De Ruimte"
-  ], 
+  ],
   [
     "is"
-  ], 
+  ],
   [
-    "open", 
+    "open",
     "toegang toegestaan"
-  ], 
+  ],
   [
-    "dicht", 
+    "dicht",
     "niet meer geopend"
-  ], 
+  ],
   [
-    "Geweldig", 
-    "Goed", 
-    "Indrukwekkend", 
-    "Cool", 
-    "Leuk", 
-    "Majestueus", 
-    "Monumentaal", 
-    "Glorieus", 
-    "Prachtig", 
-    "Glansrijk", 
-    "Geniaal", 
-    "Fantastisch", 
-    "Heerlijk"
-  ], 
+    "Geweldig",
+    "Goed",
+    "Indrukwekkend",
+    "Cool",
+    "Leuk",
+    "Majestueus",
+    "Monumentaal",
+    "Glorieus",
+    "Prachtig",
+    "Glansrijk",
+    "Geniaal",
+    "Fantastisch",
+    "Heerlijk",
+    "Delightful",
+    "Lovely",
+    "Splendid"
+  ],
   [
-    "Helaas", 
-    "Bah", 
-    "Roemloos", 
-    "Zonde", 
-    "Afgrijselijk", 
-    "Schandelijk", 
-    "Zielig", 
-    "Verdorie"
+    "Helaas",
+    "Bah",
+    "Roemloos",
+    "Zonde",
+    "Afgrijselijk",
+    "Schandelijk",
+    "Zielig",
+    "Verdorie",
+    "We do apologise"
   ]
 ]
