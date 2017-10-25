@@ -1,44 +1,45 @@
 [
   [
     "Der Raum"
-  ], 
+  ],
   [
     "ist"
-  ], 
+  ],
   [
-    "offen", 
+    "offen",
     "Zutritt gewährend"
-  ], 
+  ],
   [
-    "geschlossen", 
+    "geschlossen",
     "nicht mehr geöffnet"
-  ], 
+  ],
   [
-    "Großartig", 
-    "Imposant", 
-    "Beeindruckend", 
-    "Ehrfurcht einflößend", 
-    "Grandios", 
-    "Herrlich", 
-    "Majestätisch", 
-    "Monumental", 
-    "Glorreich", 
-    "Prächtig", 
-    "Prachtvoll", 
-    "Nobel", 
-    "Wunderschön", 
-    "Reizend", 
-    "Lieblich"
-  ], 
+    "Großartig",
+    "Imposant",
+    "Beeindruckend",
+    "Ehrfurcht einflößend",
+    "Grandios",
+    "Herrlich",
+    "Majestätisch",
+    "Monumental",
+    "Glorreich",
+    "Prächtig",
+    "Prachtvoll",
+    "Nobel",
+    "Wunderschön",
+    "Reizend",
+    "Lieblich",
+    "Splendid"
+  ],
   [
-    "Schade", 
-    "Unwürdig", 
-    "Schmählich", 
-    "Unehrenhaft", 
-    "Scheußlich", 
-    "Sündhaft", 
-    "Bescheiden", 
-    "Gemein", 
+    "Schade",
+    "Unwürdig",
+    "Schmählich",
+    "Unehrenhaft",
+    "Scheußlich",
+    "Sündhaft",
+    "Bescheiden",
+    "Gemein",
     "Schwach"
   ]
 ]
