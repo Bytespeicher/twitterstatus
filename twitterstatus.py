@@ -34,7 +34,7 @@ try:
                             config.CONSUMER_KEY,
                             config.CONSUMER_SECRET))
 except Exception as e:
-    print('Error in twitter init: ' + e)
+    print('Error in twitter init: ' + str(e))
     exit(255)
 
 
@@ -86,12 +86,12 @@ def update(status):
     try:
         twitter.statuses.update(status=text)
     except TwitterHTTPError as e:
-        print('Error while updating status: ' + e)
+        print('Error while updating status: ' + str(e))
         return
 
 
 try:
-    twitter.direct_messages.new(
+    twitter.direct_messages.events.new(
         user=config.ADMIN_NAME,
         text='Twitter Bot Startup'
     )
@@ -108,7 +108,7 @@ while 1:
         exit(255)
     except Exception as e:
         try:
-            twitter.direct_messages.new(
+            twitter.direct_messages.events.new(
                 user=config.ADMIN_NAME, text='Twitter Bot Error'
             )
         except Exception:
