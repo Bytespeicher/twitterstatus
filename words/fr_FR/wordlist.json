@@ -1,45 +1,45 @@
 [
-  [
-    "L'espace"
-  ],
-  [
-    "est"
-  ],
-  [
-    "ouvert",
-    "accorde l'accès"
-  ],
-  [
-    "fermé",
-    "inaccesible"
-  ],
-  [
-    "Magnifique",
-    "Fantastique",
-    "Excellent",
-    "Effrayant",
-    "Brillant",
-    "Majestueux",
-    "Glorieux",
-    "Somptueux",
-    "Resplendissant",
-    "Plantureux",
-    "Beau",
-    "Délicieux",
-    "Superbe",
-    "Delightful",
-    "Lovely",
-    "Splendid"
-  ],
-  [
-    "C'est dommage",
-    "Merde",
-    "Honteux",
-    "Atroce",
-    "Ça suce",
-    "Terrible",
-    "Aw shite",
-    "How unfortunate",
-    "We do apologise"
-  ]
+    [
+        "L'espace"
+    ],
+    [
+        "est"
+    ],
+    [
+        "ouvert",
+        "accorde l'accès"
+    ],
+    [
+        "fermé",
+        "inaccesible"
+    ],
+    [
+        "Magnifique",
+        "Fantastique",
+        "Excellent",
+        "Effrayant",
+        "Brillant",
+        "Majestueux",
+        "Glorieux",
+        "Somptueux",
+        "Resplendissant",
+        "Plantureux",
+        "Beau",
+        "Délicieux",
+        "Superbe",
+        "Delightful",
+        "Lovely",
+        "Splendid"
+    ],
+    [
+        "C'est dommage",
+        "Merde",
+        "Honteux",
+        "Atroce",
+        "Ça suce",
+        "Terrible",
+        "Aw shite",
+        "How unfortunate",
+        "We do apologise"
+    ]
 ]
